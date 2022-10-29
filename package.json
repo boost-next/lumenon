@@ -1,0 +1,23 @@
+{
+  "name": "@boost-next/lumenon",
+  "version": "2.0.0",
+  "description": "Fast and innovative NEXT.js starter monorepo.",
+  "keywords": [],
+  "author": {
+    "name" : "Tom (Thomas) Freudenberg",
+    "url" : "https://github.com/TomFreudenberg"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "eslint": "8.26.0",
+    "prettier": "2.7.1",
+    "turbo": "1.6.2"
+  }
+}
